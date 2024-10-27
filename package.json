@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npm run tailwind",
-    "tailwind": "tailwindcss -i ./css/input.css -o ./dist/output.css",
-    "postinstall": "npm run tailwind"
+    "build": "npx tailwindcss -i ./css/input.css -o ./dist/output.css"
   },
   "keywords": [],
   "author": "",
