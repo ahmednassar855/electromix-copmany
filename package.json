@@ -4,7 +4,6 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tailwindcss -i ./css/input.css -o ./dist/output.css",
-    "postinstall": "npm run build",
     "watch": "npx tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
   },
   "keywords": [],
