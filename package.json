@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./css/input.css -o ./dist/output.css"
+    "build": "npx tailwindcss -i ./css/input.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +12,8 @@
   "description": "",
   "devDependencies": {
     "tailwindcss": "^3.4.14"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
