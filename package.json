@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tailwind" : "npx tailwindcss i ./css/input.css -o ./dist/output.css  --watch",
-    "build": "tailwindcss -i ./css/input.css -o ./dist/output.css",
-    "watch": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch",
-    "prettier" : "npx prettier --write ./build/*.html"
+   "build" : "tailwindcss -i ./css/input.css -o ./dist/output.css",
+   "watch" : "tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
+
   },
   "keywords": [],
   "author": "",
