@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "build" : "tailwindcss -i ./css/input.css -o ./dist/output.css",
-   "watch" : "tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
-
+    "build": "tailwindcss -i ./css/input.css -o ./dist/output.css",
+    "postinstall": "tailwindcss -i ./css/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
   },
   "keywords": [],
   "author": "",
